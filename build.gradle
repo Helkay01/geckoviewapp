@@ -8,14 +8,7 @@ buildscript {
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        maven { url "https://maven.mozilla.org/maven2/" }  // Mozilla repo for GeckoView
-    }
-}
-
+// Remove allprojects{} block since repositories are now in settings.gradle
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
