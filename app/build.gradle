@@ -19,5 +19,5 @@ android {
 }
 
 dependencies {
-    implementation 'https://maven.mozilla.org/maven2/org/mozilla/geckoview/geckoview/120.0.0/geckoview-120.0.0.pom?prefix=maven2/org/mozilla/geckoview/geckoview-armeabi-v7a/100.0.20220425210429/'
+    implementation 'org.mozilla.geckoview:geckoview-armeabi-v7a:109.0.20230208214746'
 }
