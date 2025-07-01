@@ -3,30 +3,21 @@ plugins {
 }
 
 android {
-    compileSdkVersion 33
-
+    compileSdk 33
     defaultConfig {
-        applicationId "com.example.ghostbrowser"
-        minSdkVersion 21
-        targetSdkVersion 33
+        applicationId "com.example.geckoviewapp"
+        minSdk 21
+        targetSdk 33
         versionCode 1
         versionName "1.0"
     }
-
     buildTypes {
         release {
-            minifyEnabled true
-            shrinkResources true
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
         }
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
 dependencies {
-    implementation 'org.mozilla.geckoview:geckoview:120.0.20231018095937'
-    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'org.mozilla.geckoview:geckoview:120.0.0'
 }
