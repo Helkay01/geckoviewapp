@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.application'  // This enables assembleDebug
 }
 
 android {
@@ -12,12 +12,12 @@ android {
         versionName "1.0"
     }
     buildTypes {
-        release {
+        debug {
             minifyEnabled false
         }
     }
 }
 
 dependencies {
-    implementation 'https://maven.mozilla.org/maven2/org/mozilla/geckoview/geckoview/120.0.0/geckoview-120.0.0.pom?prefix=maven2/org/mozilla/geckoview/geckoview-armeabi-v7a/100.0.20220425210429/'
+    implementation 'org.mozilla.geckoview:geckoview:120.0.20231023095953'
 }
