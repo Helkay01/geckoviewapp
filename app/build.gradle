@@ -19,5 +19,5 @@ android {
 }
 
 dependencies {
-    implementation 'org.mozilla.geckoview:geckoview-armeabi-v7a:109.0.20230208214746'
+    implementation 'org.mozilla.geckoview:geckoview-armeabi-v7a:100.0.20220425210429'
 }
