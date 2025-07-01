@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'  // This enables assembleDebug
+    id 'com.android.application'
 }
 
 android {
