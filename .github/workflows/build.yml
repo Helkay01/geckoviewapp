@@ -1,4 +1,4 @@
-name: Build GeckoView APK
+name: Build GeckoView
 
 on: [push, pull_request]
 
