@@ -3,9 +3,10 @@ plugins {
 }
 
 android {
+    namespace 'com.example.ghostbrowser'
     compileSdk 33
     defaultConfig {
-        applicationId "com.example.geckoviewapp"
+        applicationId "com.example.ghostbrowser"
         minSdk 21
         targetSdk 34
         versionCode 1
