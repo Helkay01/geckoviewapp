@@ -24,4 +24,7 @@ android {
 
 dependencies {
     implementation 'org.mozilla.geckoview:geckoview-armeabi-v7a:100.0.20220425210429'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 }
